@@ -1,0 +1,48 @@
+{
+  "name": "Desafio02",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest --watchAll",
+    "cover": "jest --coverage",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "apisauce": "^0.14.3",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "22.4.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-react-native": "4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "22.4.3",
+    "react-dom": "^16.3.1",
+    "react-test-renderer": "16.3.1",
+    "reactotron-react-native": "^1.14.0",
+    "redux-saga-tester": "^1.0.379",
+    "sinon": "^4.5.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setup.js",
+    "testMatch": [
+      "<rootDir>/__tests__/**/?(*.)(spec|test).js"
+    ]
+  }
+}
